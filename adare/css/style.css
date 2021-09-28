@@ -1,0 +1,64 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif   ;
+    /*indsæt baggrundsbillede i CSS dokument under body, for at få det bag alt andet tekst etc.*/
+    background-image:url(/img/background-adare-restaurant.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h1{
+    font-size: 84px;
+    color: rgb(181, 163, 134);
+}
+p{
+    font: 18px;
+    color: rgb(181, 163, 134);
+}
+a{
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+header{
+    height: 118px;
+    text-align: center;
+} 
+nav{
+    height: 40px;
+    text-align: center;
+    padding-top: 15px;
+}
+nav a{
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 14px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+main{   
+    height: 400px;
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+footer{
+    height: 100px;
+   
+}   
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+.maps{
+    padding-bottom: 100px;
+}
+.youtube{
+    text-align: center;
+}
