@@ -1,0 +1,281 @@
+html{
+    height: 100%;
+}
+nav{
+    height: 40px;
+    text-align: center;
+    padding-top: -10px;
+    margin-top: 50px;
+}
+nav a{
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 14px;
+    padding-left: 45px;
+    padding-right: 45px;
+    color: rgba(21, 21, 21, 0.933);
+}
+
+
+/*forside start*/
+.navforside{
+    height: 40px;
+    text-align: center;
+    padding-top: 20px;
+    word-spacing: 300px;
+}
+.forside1{
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 14px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.forside2{
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 14px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.forside3{
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 14px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.forsidebody{
+    font-family: Georgia, 'Times New Roman', Times, serif   ;
+    background-image: url(../img/robin-schreiner-7y4858E8PfA-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.navn{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: rgb(156, 192, 218);
+    margin-bottom: -6%;
+    padding-right: 85px;
+    padding-left: 250px;
+}
+.efternavn{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: rgb(156, 192, 218);
+    margin-left: -40%;
+    margin-top: 10%;
+}
+.multi{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgba(156, 192, 218, 0.68);
+    margin-left: -20%;
+    margin-top: -7%;
+}
+a{
+    color: rgb(6, 6, 6);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+.forsideheader{
+    height: 118px;
+    text-align: center;
+} 
+main{   
+    height: 400px;
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+.forsidemain{
+padding-left: 500px;
+padding-top: 150px;
+}
+
+.forside{
+    display: flex;
+}
+
+.rundtbillede{
+    display: flex;
+    justify-content: center;
+    padding: 170px 800px 70px 1px;
+}
+
+.blomst{
+    border-radius: 70%;
+    opacity: 0.5;
+}
+
+.forsidefooter{
+    height: 100px;
+}   
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+.copyright1{
+    font-size: 12px;
+    color: rgba(57, 57, 57, 0.899);
+    margin-left: 20px;
+    margin-top: 15px;
+} 
+/*forside slut*/
+
+/*om mig start*/
+.ommigbody{
+    font-family: Georgia, 'Times New Roman', Times, serif   ;
+    background-image: url(../img/robin-schreiner-7y4858E8PfA-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.ommigmain{
+    height:400px;
+    display: flex;
+  }
+.tekstbox{
+      text-align: center;
+      flex: 70%;
+      padding-top: 20px 30px 0 200px;
+  }
+.portræt{
+    flex: 30%;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 200px 0 20px;
+}
+.ommigfooter{
+    height:100px;
+  }
+  
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+  }
+.p1{
+    font-family:Georgia, 'Times New Roman', Times, serif   ;
+    text-align: left;
+}
+.migh1{
+    color: rgb(87, 87, 87);
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    letter-spacing: 4px;
+    padding-top: 40px;
+}
+.copyright2{
+    font-size: 12px;
+    color: rgba(57, 57, 57, 0.899);
+    margin-left: 20px;
+    margin-top: 120px;
+} 
+
+/*om mig slut*/
+
+
+
+/*kontakt start*/
+.kontaktbody{
+    font-family: Georgia, 'Times New Roman', Times, serif   ;
+    background-image: url(../img/fakurian-design-Tc_4PdN-Fq0-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.copyright3{
+    font-size: 12px;
+    color: rgba(57, 57, 57, 0.899);
+    margin-left: 20px;
+    margin-top: 120px;
+} 
+.h1kontakt{
+    color: rgb(87, 87, 87);
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    letter-spacing: 4px;
+    padding-top: 40px;
+}
+.email{
+    color: rgb(34, 34, 34);
+    text-align: left;
+    margin-top: 100px;
+    font-size: 20px;
+}
+.telefon{
+    color: rgb(34, 34, 34);
+    text-align: left;
+    font-size: 20px;
+}
+/*kontakt slut*/
+
+
+
+/*portfolio start*/
+.portbody{
+    font-family: Georgia, 'Times New Roman', Times, serif   ;
+    background-image: url(../img/robin-schreiner-7y4858E8PfA-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.copyright4{
+    font-size: 12px;
+    color: rgba(57, 57, 57, 0.899);
+    margin-left: 20px;
+    margin-top: 120px;
+} 
+.h1portfolio{
+    color: rgb(87, 87, 87);
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    letter-spacing: 4px;
+    padding-top: 40px;
+}
+.flows{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.flow1{
+    background-color:rgba(169, 202, 223, 0.495);
+    height: 300px;
+    width: 30%;
+}
+
+.flow2{
+    background-color: rgba(169, 202, 223, 0.495);;
+    height: 300px;
+    width: 30%;
+}
+.flow3{
+    background-color:rgba(169, 202, 223, 0.495);;
+    height: 300px;
+    width: 30%;
+}
+.h1flow1{
+font-size: 25px;
+color: black;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.h1flow2{
+    font-size: 25px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.h1flow3{
+    font-size: 25px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*portfolio slut*/
